@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Jianoto</title>
+<meta name="description" content="Aplicativos para Android feitos por Marcos Gianotto: contas de obra, orcamentos e recibos, direto no aparelho.">
+<style>
+  :root{
+    --fundo:#f5f6f3; --texto:#1b1f1d; --suave:#585f5a; --tenue:#7c847e;
+    --linha:#d9ded8; --caixa:#ffffff; --acento:#35584a;
+  }
+  :root:not([data-theme="light"]) { }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --fundo:#16191a; --texto:#e8ebe7; --suave:#a6aea8; --tenue:#8a918c;
+      --linha:#2c312f; --caixa:#1e2322; --acento:#8fc0ac;
+    }
+  }
+  :root[data-theme="dark"]{
+    --fundo:#16191a; --texto:#e8ebe7; --suave:#a6aea8; --tenue:#8a918c;
+    --linha:#2c312f; --caixa:#1e2322; --acento:#8fc0ac;
+  }
+  *{box-sizing:border-box}
+  body{
+    background:var(--fundo); color:var(--texto);
+    font-family:Georgia,"Times New Roman",serif; font-size:17px; line-height:1.65;
+    max-width:40rem; margin:0 auto; padding:8px 16px 48px;
+    -webkit-text-size-adjust:100%;
+  }
+  header{padding:28px 0 22px; border-bottom:1px solid var(--linha)}
+  .olho{
+    font-family:system-ui,-apple-system,"Segoe UI",Arial,sans-serif; font-size:12px;
+    font-weight:600; letter-spacing:.09em; text-transform:uppercase;
+    color:var(--acento); margin:0 0 12px;
+  }
+  h1{font-size:2.2rem; font-weight:600; line-height:1.1; letter-spacing:-.015em; margin:0}
+  .sub{font-size:19px; line-height:1.6; color:var(--texto); margin:16px 0 0}
+  h2{
+    font-family:system-ui,-apple-system,"Segoe UI",Arial,sans-serif; font-size:13px;
+    font-weight:600; letter-spacing:.08em; text-transform:uppercase; color:var(--suave);
+    margin:36px 0 10px; padding:0 0 8px; border-bottom:1px solid var(--linha);
+  }
+  .app{
+    background:var(--caixa); border:1px solid var(--linha); border-radius:4px;
+    padding:16px 18px; margin:0 0 12px;
+  }
+  .app h3{font-size:1.15rem; font-weight:600; margin:0 0 6px}
+  .app p{margin:0; color:var(--suave); font-size:16px}
+  p{margin:0 0 14px}
+  a{color:var(--acento)}
+  footer{
+    border-top:1px solid var(--linha); padding:20px 0 0; margin:40px 0 0;
+    font-family:system-ui,-apple-system,"Segoe UI",Arial,sans-serif;
+    font-size:14px; color:var(--suave);
+  }
+  .email{color:var(--texto); font-weight:600}
+  @media (max-width:420px){ h1{font-size:1.8rem} body{font-size:16px} }
+</style>
+</head>
+<body>
+
+<header>
+  <p class="olho">Jianoto &middot; Aplicativos para Android</p>
+  <h1>Jianoto</h1>
+  <p class="sub">Aplicativos simples para quem trabalha em obra e precisa fazer a conta
+  na hora: sem cadastro, sem login e sem mandar nada para servidor nenhum.</p>
+</header>
+
+<h2>Aplicativos</h2>
+
+<div class="app">
+  <h3>Calculadora de Tijolos</h3>
+  <p>Quantos tijolos uma parede precisa, com a perda e a argamassa j&aacute; contadas.</p>
+</div>
+
+<div class="app">
+  <h3>Di&aacute;ria Certa: Acerto de Obra</h3>
+  <p>Controle de di&aacute;rias, vales e empreitadas, com recibo de acerto em PDF e
+  c&oacute;digo Pix copia e cola.</p>
+</div>
+
+<div class="app">
+  <h3>Recibo J&aacute;: Or&ccedil;amento em PDF</h3>
+  <p>Or&ccedil;amento e recibo em PDF com Pix, feitos no pr&oacute;prio aparelho,
+  funcionando sem internet.</p>
+</div>
+
+<h2>Privacidade</h2>
+<p>Cada aplicativo tem a sua pr&oacute;pria pol&iacute;tica de privacidade, publicada em
+<a href="https://jianotoapps.blogspot.com/">jianotoapps.blogspot.com</a>. A regra &eacute; a
+mesma em todos: o que voc&ecirc; digita fica no seu aparelho, e n&oacute;s n&atilde;o
+recebemos c&oacute;pia de nada.</p>
+
+<footer>
+  Desenvolvedor: Marcos Gianotto (Jianoto)<br>
+  Contato: <span class="email">marcosgianottoo@gmail.com</span>
+</footer>
+
+</body>
+</html>
